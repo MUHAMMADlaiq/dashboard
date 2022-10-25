@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="title icon" href="/images/download.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="/script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-light bg-light ">
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="container-fluid ">
+                <div class="row">
+                    <!-- sidebar -->
+                    <div class="col-xl-2 col-lg-3 col-md-4 sidebar  ">
+                        <a href="#"
+                            class="navbar-brand text-white d-block mx-auto text-center py-3 mb-4 bottom-border">codeandcreate</a>
+                        <div class=" bottom-border pb-3">
+                            <img src="/images/images.jpg" width="50px" height="50px" class="me-2 rounded-circle" alt="">
+                            <a href="#" class="text-white ">hellan smith</a>
+                        </div>
+                        <ul class="text-white navbar-nav flex-column mt-4">
+                            <li class="nav-item ">
+                                <a href="" class="nav-link text-white current"><i class="fas fa-home fa-2 px-2"></i>
+                                    Dashboard</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a href="" class="nav-link text-white sidebar-link "><i
+                                        class="fas fa-user fa-2 px-2"></i> Profile</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a href="" class="nav-link text-white sidebar-link "><i
+                                        class="fas fa-envelope fa-2 px-2"></i> Inbox</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a href="" class="nav-link text-white sidebar-link "><i
+                                        class="fas fa-shopping-bag fa-2 px-2"></i> sales</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a href="" class="nav-link text-white sidebar-link "><i
+                                        class="fas fa-chart-line fa-2 px-2"></i> chart</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a href="" class="nav-link text-white sidebar-link "><i
+                                        class="fas fa-Table fa-table px-2"></i> tables</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a href="" class="nav-link text-white sidebar-link "><i
+                                        class="fas fa-wrench fa-2 px-2"></i> setting</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a href="" class="nav-link text-white sidebar-link "><i
+                                        class="fas fa-file-alt fa-2 px-2"></i> Documentation</a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                    <!-- end of sidebar -->
+                    <!-- navbar -->
+                    <div class="col-xl-10 col-lg-9 col-md-8 bg-dark ms-auto fixed-top py-2 ">
+                        <div class="row align-items-center">
+                            <div class="col-md-3 ">
+                                <h4 class="text-light text-uppercase mb-0 ">
+                                    dashboard
+                                </h4>
+
+                            </div>
+                            <div class="col-md-4">
+                                <form action="">
+                                    <div class="input-group">
+                                        <input type="search" class="form-control " placeholder="search" name="">
+                                        <button type="button" class="btn btn-light  search-button "> <i
+                                                class="fa fa-search text-danger"></i></button>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="col-md-5 ">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item icon-parent">
+                                        <a href="" class="nav-link icon-bullet"><i
+                                                class="fa fa-comments text-muted fa-1x "></i></a>
+                                    </li>
+                                    <li class="nav-item icon-parent">
+                                        <a href="" class="nav-link icon-bullet"><i
+                                                class="fa fa-bell text-muted fa-1x "></i></a>
+                                    </li>
+                                    <li class="nav-item ms-auto">
+                                        <a href="" class="nav-link  " data-bs-toggle="modal"
+                                            data-bs-target="#exampleModal"><i
+                                                class="fa fa-sign-out-alt text-danger fa-1x "></i></a>
+                                    </li>
+
+                                </ul>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- end of navbar -->
+                    <!-- modal -->
+
+
+
+                </div>
+            </div>
+        </div>
+
+    </nav>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">want to leave</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    press logout to leave
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" data-bs-dismiss="modal">stay
+                        here</button>
+                    <button type="button" class="btn btn-danger">logout</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- modal end -->
+
+    <!-- card -->
+    <!-- <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9 me-auto ">
+                    <div class="row pt-5 mt-3 mb-5">
+                        <div class="col-sm-6 p-2">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class=" d-flex justify-content-between">
+                                        <i class="fa fa-money-bill-alt fa-3x text-success"></i>
+                                        <div class="text-secondary text-right">
+                                            <h5>sales</h5>
+                                            <h3>$13,000</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-footer text-secondary">
+                                    <i class="fa fa-sync me-3 "></i>
+                                    <span>update now</span>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+
+                        </div>
+                        <div class="col-sm-6">
+
+                        </div>
+                        <div class="col-sm-6">
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- end card -->
+</body>
+
+</html>
